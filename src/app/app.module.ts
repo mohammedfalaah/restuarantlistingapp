@@ -3,10 +3,24 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { RestuarantsListComponent } from './restuarants-list/restuarants-list.component';
+import { ViewRestuarantComponent } from './view-restuarant/view-restuarant.component';
+import { AddRestuarantComponent } from './add-restuarant/add-restuarant.component';
+import { UpdateRestuarantComponent } from './update-restuarant/update-restuarant.component';
+import { DeleteRestuarantComponent } from './delete-restuarant/delete-restuarant.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RestuarantsListComponent,
+    ViewRestuarantComponent,
+    AddRestuarantComponent,
+    UpdateRestuarantComponent,
+    DeleteRestuarantComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
